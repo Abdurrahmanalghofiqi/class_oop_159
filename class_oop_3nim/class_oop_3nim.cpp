@@ -41,7 +41,7 @@ public:
 
 		cout << "Nim mahasiswa ";
 		cin >> mhs.nim;
-		cout << "Nama mahasiswa ";
+		cout << "Nama mahasiswa "; 
 		cin >> mhs.nama;
 		mhs.tampil();
 		mk.tampilMK();
