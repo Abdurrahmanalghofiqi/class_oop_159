@@ -21,7 +21,7 @@ public:
 
 		cout << "\nMasukan jumlah sks= ";
 		cin >> sks;
-		cout << "\nMasukan kode MK= ";
+		cout << "\nMasukan Kode MK= ";
 		cin >> kode;
 		cout << "\nMasukan Nama MK= ";
 		cin >> namaMK;
@@ -29,5 +29,20 @@ public:
 
 	void tampilMK() {
 		cout << "\nJumlah sks= " << sks;
+		cout << "\nKode MK= " << kode;
+		cout << "\nNama MK= " << namaMK;
 	}
 };
+
+	int main()
+{
+		Mahasiswa mhs;
+		Matakuliah mk;
+
+		cout << "Nim mahasiswa ";
+		cin >> mhs.nim;
+		cout << "Nama mahasiswa ";
+		cin >> mhs.nama;
+		mhs.tampil();
+		mk.tampilMK();
+	}
