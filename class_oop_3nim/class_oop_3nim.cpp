@@ -14,7 +14,7 @@ public:
 class Matakuliah {
 private:
 	int sks;
-	string kode;
+	string kode; 
 	string namaMK;
 public:
 };
